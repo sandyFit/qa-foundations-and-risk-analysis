@@ -7,7 +7,7 @@
 **Environment:**
   * **OS:** Windows 11 Home 
   * **Browser:** Google Chrome (v128.0) 
-  * **URL:** `[https://www.saucedemo.com/checkout-step-one.html](https://www.saucedemo.com/checkout-step-one.html)`
+  * **URL:** [https://www.saucedemo.com/checkout-step-one.html](https://www.saucedemo.com/checkout-step-one.html)
 
 
 **Preconditions:**

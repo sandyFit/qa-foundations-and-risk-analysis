@@ -15,7 +15,7 @@
 ## 1. What Was Tested
 
 * **Authentication & Session Routing:** Standard user authentication, locked-out account handling, and direct URL route access.
-* **Shopping Cart Mutability:** Adding/removing items dynamically, cart badge counter accuracy, and thepersistance of items in the cart during page reloading.
+* **Shopping Cart Mutability:** Adding/removing items dynamically, cart badge counter accuracy, and the persistance of items in the cart during page reloading.
 * **Checkout Funnel (UI Flow):** Navigation from cart to checkout steps, calculation of subtotals and taxes, and order finalization.
 * **Input Validation & Security Constraints:** Long character length injections, HTML/JS script strings, and special characters handling.
 * **Exploratory Testing:** Exploratory session covering route navigation, input boundary limits, UI button state toggles, cart mutability and UX worflows.
@@ -51,15 +51,13 @@
 ## 5. Recommendations
 
 1. **Implement Protected Routes:**
-  * Enforce router checks on `/checkout-step-two.html` so users without active shipping state are redirected to `/checkout-step-one.html` with an explicit error notification.
-
+Enforce router checks on `/checkout-step-two.html` so users without active shipping state are redirected to `/checkout-step-one.html` with an explicit error notification.
 
 2. **Apply Basic String Sanitization & Length Boundaries:**
-  * Restrict First Name, Last Name, and Postal Code fields to reasonable max lengths ($Max Length = 50$) and avoid HTML special characters.
-
+Restrict First Name, Last Name, and Postal Code fields to reasonable max lengths ($Max Length = 50$) and avoid HTML special characters.
 
 3. **Log BUG-001 to Backlog:**
-  * Log BUG-001 as a low-priority quality-of-life ticket in the product backlog. The issue causes non-fatal UX friction during browser back navigation without compromising order fulfillment or security.
+Log BUG-001 as a low-priority quality-of-life ticket in the product backlog. The issue causes non-fatal UX friction during browser back navigation without compromising order fulfillment or security.
 
 
 
