@@ -60,7 +60,7 @@ The checkout form accepts long input strings (e.g., 500+ character strings), raw
 
 * **Category:** Suspicious Navigaion Behavior
 
-* **Target Page:** `[https://www.saucedemo.com/checkout-step-two.html](https://www.saucedemo.com/checkout-step-two.html)`
+* **Target Page:** [https://www.saucedemo.com/checkout-step-two.html](https://www.saucedemo.com/checkout-step-two.html)
 
 #### **Observed Behavior:**
 
