@@ -182,7 +182,7 @@
 
 ---
 
-### **TC-CHKF008: Checkout Form Handling of Boundary and Special-Character Input**
+#### **TC-CKOF008: Checkout Form Handling of Boundary and Special-Character Input**
 
 **Preconditions:** User is logged in as `standard_user`, has at least one item in the cart, and is on `/checkout-step-one.html`.
 
@@ -215,7 +215,7 @@
 
 ---
 
-#### **TC-CHKF-009: Checkout Finalization & Order Completion**
+#### **TC-CKOF-009: Checkout Finalization & Order Completion**
 
 **Preconditions:** User is on `/checkout-step-two.html` with valid cart items and checkout information submitted.
 
@@ -239,7 +239,7 @@
 
 ---
 
-#### **TC-CHKF-010: Order Cancellation from Summary Overview**
+#### **TC-CKOF-010: Order Cancellation from Summary Overview**
 
 **Preconditions:** User is on `/checkout-step-two.html` with items in the cart.
 
