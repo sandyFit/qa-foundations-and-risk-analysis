@@ -62,7 +62,7 @@
 
 ---
 
-## 3. Key Findings & Observations Summary
+## 3. Summary
 
 | ID | Category | Observed Behavior | Technical Impact | Risk Level |
 | --- | --- | --- | --- | --- |
