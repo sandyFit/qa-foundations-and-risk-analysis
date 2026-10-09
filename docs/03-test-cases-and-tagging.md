@@ -23,7 +23,7 @@
 
 #### **TC-AUTH001: Successful Login with Standard User**
 
-**Preconditions:** User is on the login page `https://www.saucedemo.com/`.
+**Preconditions:** User is on the login page [https://www.saucedemo.com/](https://www.saucedemo.com/).
 
 **Test Steps:**
   1. Enter `standard_user` into the Username field.
@@ -46,7 +46,7 @@
 
 ### **TC-AUTH002: Login Attempt with Locked Out Account**
 
-**Preconditions:** User is on the login page `https://www.saucedemo.com/`.
+**Preconditions:** User is on the login page [https://www.saucedemo.com/](https://www.saucedemo.com/).
 
 **Test Steps:**
   1. Enter `locked_out_user` into the Username field.
@@ -72,7 +72,7 @@
 **Preconditions:** User is not authenticated; browser session is logged out or cleared.
 
 **Test Steps:**
-  1. Navigate directly to `https://www.saucedemo.com/checkout-step-one.html` via the browser address bar.
+  1. Navigate directly to [https://www.saucedemo.com/checkout-step-one.html](https://www.saucedemo.com/checkout-step-one.html) via the browser address bar.
   2. Press **Enter**.
 
 
