@@ -25,31 +25,22 @@
 
 ## 2. Session Execution & Exploration Log
 
-### Time Block 1: Cart Mutability & Rapid State Changes (00:00 – 00:15)
-
-* **Actions Taken:**
+### Time Block 1: Cart Mutability & Rapid State Changes (00:00 – 00:15)**Actions Taken:**
 * Added all 6 inventory items to the cart rapidly from `/inventory.html`.
 * Navigated to `/cart.html` and repeatedly removed and re-added items.
 * Navigated back to `/inventory.html` and verified button state toggles (`Add to cart` vs. `Remove`).
-
-
-* **Observations:**
+**Observations:**
 * UI state updates synchronously; the badge count accurately reflects item additions and removals.
 * Item state remains persistent across page refreshes.
 
 
 
-### Time Block 2: Checkout Navigation & State Preservation (00:15 – 00:30)
-
-* **Actions Taken:**
+### Time Block 2: Checkout Navigation & State Preservation (00:15 – 00:30)**Actions Taken:**
 * Added items, proceeded to `/checkout-step-one.html`, filled out partial data, and clicked the browser **Back** button.
 * Proceeded to `/checkout-step-two.html` (Overview) and clicked browser **Back** to Step One.
 * Attempted to modify cart contents in another browser tab while on Step Two.
-
-
-* **Observations:**
-* Clicking browser **Back** from `/checkout-step-two.html` returns to `/checkout-step-one.html`, but previously entered form fields (First Name, Last Name, Zip) were not preserved.
-* **Potential Flaw:** User must re-type all shipping information if they return to verify or modify step one.
+**Observations:**
+* Clicking browser **Back** from `/checkout-step-two.html` returns to `/checkout-step-one.html`, but previously entered form fields (First Name, Last Name, Zip) were not preserved**Potential Flaw:** User must re-type all shipping information if they return to verify or modify step one.
 
 
 
@@ -58,12 +49,12 @@
 
 ### Time Block 3: Input Injection & Unexpected Execution Sequences (00:30 – 00:45)
 
-* **Actions Taken:**
+**Actions Taken:**
 * Injected large string payloads ($>500$ characters) and HTML/JS strings (`<script>alert('xss')</script>`) into `/checkout-step-one.html`.
 * Navigated directly to `/checkout-complete.html` via address bar without completing purchase.
 
 
-* **Observations:**
+**Observations:**
 * **Finding 1:** Form fields accept any string length and raw HTML script tags without frontend sanitization or field length validation.
 * **Finding 2:** Direct navigation to `/checkout-step-one.html` while logged out is properly intercepted and redirected to login with an error message.
 
