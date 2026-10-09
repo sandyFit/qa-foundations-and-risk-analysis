@@ -1,11 +1,19 @@
 # QA Foundations & Risk Analysis Framework
-Overview of test analysis, risk evaluation, and HTTP traffic inspection.
+This assignment focuses on manual testing, exploratory testing, and QA reasoning rather than test automation. The goal is to demonstrate analytical thinking, risk-based prioritization, and the ability to identify unexpected behavior and assess its impact.
+
+### **Focus** 
+Manual Testing, Exploratory Testing & Risk-Based Thinking 
+
+### **Application** 
+https://www.saucedemo.com/ 
+
+---
 
 ## Index
 
-[understand the Product](docs/01-understand-the-product.md)
+[Understandig the Product](docs/01-understand-the-product.md)
 
-[Identify & Prioritize Risks](docs/02-identify-prioritize-risks.md)
+[Identifying & Prioritizing Risks](docs/02-identify-prioritize-risks.md)
 
 [Manual Test Suite & Tagging Taxonomy](docs/03-test-cases-and-tagging.md)
 
