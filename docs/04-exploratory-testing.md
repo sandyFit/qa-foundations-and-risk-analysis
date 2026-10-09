@@ -12,7 +12,7 @@
 
 ## 1. Objectives
 
-> Explore the Shopping Cart and Checkout flows without predefined scripts to discover unexpected system behaviors, state corruption, navigation loops, and edge-case validation failures.
+> Explore the Shopping Cart and Checkout flows to discover unexpected system behaviors and edge-case validation failures.
 
 ### Focus Areas
 
